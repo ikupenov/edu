@@ -14,6 +14,10 @@ namespace SchoolWebsite.Controllers
         private readonly ApplicationUserManager userManager;
         private readonly ApplicationSignInManager signInManager;
 
+        public AccountController()
+        {
+        }
+
         public AccountController(ApplicationUserManager userManager, ApplicationSignInManager signInManager)
         {
             this.userManager = userManager;
